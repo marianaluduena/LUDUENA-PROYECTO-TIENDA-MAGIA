@@ -1,0 +1,151 @@
+
+.navbar-nav>.nav-link.active {
+    font-size: 1.3rem;
+  
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+
+.carousel {
+    display: flex;
+    max-width: 80%;
+    padding: 2.5rem;
+    margin: auto;
+}
+
+.img__container__carousel {
+    max-width: 890px;
+}
+
+
+/*...............SECCIÓN: NOSOTROS............*/
+
+#cofre__magico {
+
+    display: flex;
+}
+
+.frase__container {
+    width: 50%;
+}
+
+
+
+/*............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO ................*/
+/*
+.producto__esposas__container{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.producto__esposas__container > div{
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 45%;
+}
+
+.producto__esposas__container > div h3{
+    flex: 100%;
+    order: 1;
+    text-align: right;
+}
+
+.producto__esposas__container .esposas__img__container{
+    flex: 1 30%;
+    order: 3;
+    align-self: center;
+}*/
+
+
+/*........................BORRAR................*/
+.producto__main__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.producto__main__container > div {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.producto__main__container .producto__titulo {
+    flex: 100%;
+}
+
+.card__producto__esposas {
+    flex: 1 30%;
+    order: 1;
+}
+
+
+.producto__caracteristicas {
+    flex: 1;
+    order: 2;
+
+}
+
+/*
+.esposas__titulo__descripcion{
+    flex: 100%;
+    text-align: right;
+    order: 2;
+}
+
+.img__esposas__container{
+    flex: 1;
+    order: 3;
+    flex: 1 30%;
+    order: 3;
+}
+
+.descripcion__esposas{
+    flex: 1 20%;
+    order: 4;
+}
+
+.esposas__titulo__detalles{
+    flex: 100%;
+    order: 5;
+    text-align: right;
+}*/
+
+
+/*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
+
+iframe {
+    display: block;
+    aspect-ratio: 16/ 9;
+}
+
+/*...............SECCIÓN: FORMULARIO ............*/
+
+input{
+    width: 400px;
+}
+
+#opciones{
+
+    justify-content: center;
+}
+
+textarea{
+  
+    min-height: 15rem;
+}
+
+#comentarios{
+    width: 1000px;
+    margin: 3 auto;
+}
+
+
+.form__btn {
+    font-size: 1.8rem;
+    width: 20%;
+}
+
+

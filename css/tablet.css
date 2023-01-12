@@ -1,0 +1,147 @@
+/*...............ESTILOS GRALES............*/
+
+section{
+    padding: 1rem;
+}
+
+p,
+li {
+    text-align: center;
+}
+
+p {
+   
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+h2,
+h3{
+    margin: 0 auto;
+
+}
+
+h2{
+    font-size: 2.5rem;
+ 
+}
+
+h3{
+    font-size: 2rem;
+  
+}
+
+h4{
+    font-size: 1.8rem;
+}
+/*...............MENÚ DE NAVEGACIÓN............*/
+
+nav {
+    max-width: 980px;
+    justify-content: center;
+    margin: 1.5rem auto;
+    margin: 3rem auto;
+    border-radius: 15px;
+}
+
+nav .navbar-nav{
+    padding: 2rem;
+}
+.navbar-nav>.nav-link.active {
+    font-size: 1rem;
+  
+}
+
+.nav-link{
+    border: none;
+}
+
+/*...............SECCIÓN: NOSOTROS............*/
+
+.frase__container {
+    width: 80%;
+}
+
+/*...............SECCIÓN: PRODUCTOS............*/
+
+
+
+.accordion {
+    --bs-accordion-bg: #2f7587;
+    --bs-accordion-border-color: none;
+}
+
+.accordion-button {
+    background-color: rgb(247 175 21 / 80%);
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.4rem;
+    margin: 0.5rem auto;
+   
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffc107;
+    background-color: #0a4665
+}
+
+span{
+    margin: 1.5rem;
+    font-size: 1.8rem;
+}
+/*...............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO............*/
+
+.producto__main__container {
+    padding: 25px;
+}
+/*
+.contenedor__secundario {
+    flex: 1;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+}*/
+
+/*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
+
+iframe {
+    display: block;
+}
+
+
+/*................SECCIÓN: FORMULARIO.........................*/
+
+label{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-control{
+    padding: 1.5rem;
+}
+
+input .form-control{
+    width: 300px;
+}
+
+#opciones{
+    margin: auto;
+}
+
+#magiaFav{
+  
+    padding: 1.5rem;
+    font-size: 1.4rem;
+}
+
+#comentarios{
+    min-height: 20rem;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+}
+
+.form__btn {
+    font-size: 1.8rem;
+    width: 90%;
+}
