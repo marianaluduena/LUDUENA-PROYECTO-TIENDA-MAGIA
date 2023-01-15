@@ -143,17 +143,16 @@ input .form-control{
 
 #magiaFav{
   
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1.4rem;
 }
 
 #comentarios{
     min-height: 20rem;
-    font-size: 1.5rem;
-    margin: 2rem auto;
+    font-size: 1.2rem;
 }
 
 .form__btn {
-    font-size: 1.8rem;
-    width: 90%;
+    font-size: 1.3rem;
+    width: 70%;
 }

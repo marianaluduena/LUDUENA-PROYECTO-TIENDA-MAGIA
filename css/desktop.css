@@ -29,6 +29,12 @@ h1 {
     max-width: 890px;
 }
 
+/*...............CARROUSEL............*/
+
+#img__cartas__carousel{
+
+    background-image: url("../img/carrousel/cartas__ps__4.jpg");
+}
 
 /*...............SECCIÓN: NOSOTROS............*/
 
@@ -144,11 +150,6 @@ input{
 textarea{
   
     min-height: 15rem;
-}
-
-#comentarios{
-    width: 1000px;
-    margin: 3 auto;
 }
 
 
