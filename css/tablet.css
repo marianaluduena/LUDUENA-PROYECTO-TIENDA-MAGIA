@@ -23,12 +23,13 @@ h3{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+  
  
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 1.7rem;
   
 }
 
@@ -38,7 +39,7 @@ h4{
 /*...............MENÚ DE NAVEGACIÓN............*/
 
 nav {
-    max-width: 980px;
+    max-width: 730px;
     justify-content: center;
     margin: 1.5rem auto;
     margin: 3rem auto;
@@ -46,8 +47,9 @@ nav {
 }
 
 nav .navbar-nav{
-    padding: 2rem;
+    padding: 1.5rem;
 }
+
 .navbar-nav>.nav-link.active {
     font-size: 1rem;
   
@@ -63,6 +65,15 @@ nav .navbar-nav{
     width: 80%;
 }
 
+
+.container__texto__fondo{
+    margin: 2rem auto;
+}
+
+.card__fondo__transparente{
+    margin: 2rem;
+
+}
 /*...............SECCIÓN: PRODUCTOS............*/
 
 
@@ -107,6 +118,7 @@ span{
 
 iframe {
     display: block;
+    margin: 2rem auto;
 }
 
 
@@ -114,11 +126,11 @@ iframe {
 
 label{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .form-control{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 input .form-control{
@@ -126,12 +138,12 @@ input .form-control{
 }
 
 #opciones{
-    margin: auto;
+    margin: 2rem auto;
 }
 
 #magiaFav{
   
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 1.4rem;
 }
 

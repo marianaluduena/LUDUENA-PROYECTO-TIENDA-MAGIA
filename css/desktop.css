@@ -1,4 +1,13 @@
 
+nav{
+    max-width: 980px;
+   
+}
+
+nav .navbar-nav{
+    padding: 2rem;
+}
+
 .navbar-nav>.nav-link.active {
     font-size: 1.3rem;
   
