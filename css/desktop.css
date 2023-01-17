@@ -8,7 +8,7 @@ nav .navbar-nav {
 }
 
 .navbar-nav>.nav-link.active {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 
 }
 
@@ -30,6 +30,12 @@ h1 {
 
 .img__carrousel{
     height: 510px;
+}
+
+.parrafo__carrousel{
+    color: rgb(247, 175, 21);
+    font-family: "Playfair", "Lora", Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
 }
 /*...............SECCIÓN: NOSOTROS............*/
 
