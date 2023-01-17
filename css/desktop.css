@@ -1,27 +1,26 @@
-
-nav{
+nav {
     max-width: 980px;
-   
+
 }
 
-nav .navbar-nav{
+nav .navbar-nav {
     padding: 2rem;
 }
 
 .navbar-nav>.nav-link.active {
     font-size: 1.3rem;
-  
+
 }
 
 h1 {
     font-size: 4rem;
 }
 
+/*...............CARROUSEL............*/
 
 .carousel {
     display: flex;
-    max-width: 80%;
-    padding: 2.5rem;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -29,13 +28,9 @@ h1 {
     max-width: 890px;
 }
 
-/*...............CARROUSEL............*/
-
-#img__cartas__carousel{
-
-    background-image: url("../img/carrousel/cartas__ps__4.jpg");
+.img__carrousel{
+    height: 510px;
 }
-
 /*...............SECCIÓN: NOSOTROS............*/
 
 #cofre__magico {
@@ -82,7 +77,7 @@ h1 {
     align-content: flex-start;
 }
 
-.producto__main__container > div {
+.producto__main__container>div {
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -138,17 +133,17 @@ iframe {
 
 /*...............SECCIÓN: FORMULARIO ............*/
 
-input{
+input {
     width: 400px;
 }
 
-#opciones{
+#opciones {
 
     justify-content: center;
 }
 
-textarea{
-  
+textarea {
+
     min-height: 15rem;
 }
 
@@ -157,5 +152,3 @@ textarea{
     font-size: 1.8rem;
     width: 20%;
 }
-
-
