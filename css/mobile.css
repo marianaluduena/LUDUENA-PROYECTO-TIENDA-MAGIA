@@ -51,6 +51,7 @@ h1 {
 h2 {
     --bs--text: center;
     font-size: 1.6rem;
+
  
 
 }
@@ -97,7 +98,6 @@ p {
 img {
     max-width: 690px;
     border-radius: 5px;
-    background-color: rgb(247, 175, 21);
 }
 
 
@@ -183,6 +183,7 @@ nav {
 
 .img__nosotros{
     margin: 0.5rem auto;
+    background-color: rgb(247, 175, 21);
 }
 
 .g-5, .gy-5 {
