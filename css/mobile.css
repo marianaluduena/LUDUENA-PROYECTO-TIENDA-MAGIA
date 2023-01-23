@@ -371,6 +371,12 @@ input {
     width: 210px;
 }
 
+.container__form__textarea{
+
+    width: 100%;
+    margin: auto;
+}
+
 #comentarios {
     min-height: 10rem;
     width: 100%;
@@ -393,6 +399,8 @@ input {
 .btn-primary {
 
     --bs-btn-border-color: none;
+    --bs-btn-hover-bg: rgb(247, 175, 21);
+    --bs-btn-active-bg: rgb(247, 175, 21);
 }
 
 form>button {

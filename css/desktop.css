@@ -16,6 +16,7 @@ h1 {
     font-size: 4.5rem;
 }
 
+
 /*...............CARROUSEL............*/
 
 .carousel {
@@ -152,6 +153,11 @@ input {
     justify-content: center;
 }
 
+.container__form__textarea{
+
+    width: 90%;
+}
+
 textarea {
 
     min-height: 15rem;
@@ -159,6 +165,6 @@ textarea {
 
 
 .form__btn {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 20%;
 }
