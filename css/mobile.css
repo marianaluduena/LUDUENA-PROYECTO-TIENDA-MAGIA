@@ -12,8 +12,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-
 }
 
 header,
@@ -21,7 +19,6 @@ main,
 footer {
     background-color: #16161687;
     max-width: 1680px;
-
 }
 
 
@@ -51,9 +48,6 @@ h1 {
 h2 {
     --bs--text: center;
     font-size: 1.6rem;
-
- 
-
 }
 
 h3 {
@@ -111,6 +105,10 @@ nav {
 
 a {
     text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
     color: rgb(247, 175, 21);
 }
 
@@ -198,8 +196,6 @@ nav {
 .text-secondary {
     color: rgb(247, 175, 21);
 }
-
-
 
 /*.........SECCIÓN: PRODUCTOS.......*/
 
@@ -354,8 +350,6 @@ input {
     border: none;
 }
 
-
-
 #magiaFav label {
     width: 210px;
 
@@ -424,4 +418,15 @@ form>select {
     font-size: 1.1rem;
     border-color: rgb(247, 175, 21);
     border-style: dotted;
+}
+
+.footer__empresa{
+    background-color: #16161687;
+    color: whitesmoke;
+    font-family: "Playfair", Arial, Helvetica, sans-serif;;
+
+}
+
+.footer__empresa li:hover{
+    color: rgb(247, 175, 21);
 }
