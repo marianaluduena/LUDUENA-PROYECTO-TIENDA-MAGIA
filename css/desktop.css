@@ -13,7 +13,7 @@ nav .navbar-nav {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 
 /*...............CARROUSEL............*/
@@ -24,6 +24,10 @@ h1 {
     margin: auto;
 }
 
+.carousel-item{
+
+    background-color: rgb(247, 175, 21);
+}
 .img__container__carousel {
     max-width: 890px;
 }
@@ -33,9 +37,9 @@ h1 {
 }
 
 .parrafo__carrousel{
-    color: rgb(247, 175, 21);
+    color: whitesmoke;
     font-family: "Playfair", "Lora", Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 /*...............SECCIÓN: NOSOTROS............*/
 
