@@ -156,4 +156,5 @@ input .form-control{
 .form__btn {
     font-size: 1.3rem;
     width: 70%;
+    margin: 3rem auto;
 }
