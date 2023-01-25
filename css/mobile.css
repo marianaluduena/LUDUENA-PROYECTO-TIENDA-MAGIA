@@ -418,6 +418,13 @@ form>select {
 ul.skills__lista{
 
     color: whitesmoke;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    margin: 2rem auto;
+}
+
+ul.skills__lista > li {
+
+    padding: 0.5rem;
 }
 /*............FOOTER: EMPRESA................*/
 .list-group-item {
