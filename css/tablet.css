@@ -158,3 +158,9 @@ input .form-control{
     width: 70%;
     margin: 3rem auto;
 }
+
+/*........................FOOTER: ACERCA DE MÍ..........*/
+
+.skills__card{
+    max-height: 600px;
+}
