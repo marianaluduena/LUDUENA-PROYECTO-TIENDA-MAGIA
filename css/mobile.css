@@ -256,6 +256,9 @@ span {
     margin: 0;
 }
 
+#heading__sin__bg__color{
+    background-color: #5f9ea00a;
+}
 
 .accordion {
     --bs-accordion-bg: #2f7587;
