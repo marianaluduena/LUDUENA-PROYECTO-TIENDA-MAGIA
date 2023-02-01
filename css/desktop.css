@@ -97,6 +97,7 @@ h1 {
     flex: 100%;
 }
 
+/*
 .card__producto__esposas {
     flex: 1 30%;
     order: 1;
@@ -107,33 +108,7 @@ h1 {
     flex: 1;
     order: 2;
 
-}
-
-/*
-.esposas__titulo__descripcion{
-    flex: 100%;
-    text-align: right;
-    order: 2;
-}
-
-.img__esposas__container{
-    flex: 1;
-    order: 3;
-    flex: 1 30%;
-    order: 3;
-}
-
-.descripcion__esposas{
-    flex: 1 20%;
-    order: 4;
-}
-
-.esposas__titulo__detalles{
-    flex: 100%;
-    order: 5;
-    text-align: right;
 }*/
-
 
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 

@@ -77,8 +77,6 @@ nav .navbar-nav{
 }
 /*...............SECCIÓN: PRODUCTOS............*/
 
-
-
 .accordion {
     --bs-accordion-bg: #2f7587;
     --bs-accordion-border-color: none;
@@ -107,13 +105,10 @@ span{
 .producto__main__container {
     padding: 25px;
 }
-/*
-.contenedor__secundario {
-    flex: 1;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    overflow: hidden;
-}*/
+
+.producto__caracteristicas {
+    margin: 1rem;
+}
 
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 

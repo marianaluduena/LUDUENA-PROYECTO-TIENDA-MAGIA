@@ -246,11 +246,6 @@ span {
     align-content: flex-start;
 }
 
-.esposas__titulo__descripcion {
-    flex: 100%;
-    text-align: right;
-}
-
 .card__producto__esposas {
     width: 40rem;
     margin: 1rem 0;
@@ -258,8 +253,7 @@ span {
 
 .producto__caracteristicas {
     flex: 1;
-    margin: 1.3rem;
-    padding: 1rem;
+    margin: 0;
 }
 
 
