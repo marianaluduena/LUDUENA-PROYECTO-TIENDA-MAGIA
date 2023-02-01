@@ -300,6 +300,16 @@ span {
     margin: 2rem auto;
 }*/
 
+.bg-secondary{
+    background-color: rgb(247 175 21 / 86%) !important;
+}
+
+.btn__precio__producto__individual__container{
+
+    display: flex;
+    padding: 0.5rem;
+    margin: 1rem;
+}
 /*............SECCIÓN: BENEFICIOS................*/
 
 .card .titulo__beneficios {
