@@ -427,6 +427,12 @@ ul.skills__lista > li {
 
     padding: 0.5rem;
 }
+
+.link__btn__redes{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
 /*............FOOTER: EMPRESA................*/
 .list-group-item {
     padding: 1.5rem;
@@ -446,4 +452,13 @@ ul.skills__lista > li {
 
 .footer__empresa li:hover{
     color: rgb(247, 175, 21);
+}
+
+#footer__logo{
+    display: flex;
+    background-color: #306775bd;
+}
+
+#footer__titulo__empresa{
+    background-color: #306775bd;
 }
