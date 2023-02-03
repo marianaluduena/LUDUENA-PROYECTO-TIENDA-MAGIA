@@ -269,7 +269,13 @@ del{
     color: #e3dedeb0;
 }
 
+.btn__cantidad{
+    
+}
 
+.btn__agregar__cant__al__carrito{
+    margin: 1rem;
+}
 
 /*
 .accordion {
