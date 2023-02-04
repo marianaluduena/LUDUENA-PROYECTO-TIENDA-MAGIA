@@ -150,24 +150,29 @@
                         <!-- Btns sólo para versión móvil-->
 
                         <div class="d-grid gap-2 col-6 mx-auto d-md-none">
-                            <button type="button" class="btn btn-primary btn-lg d-md-block btn__agregar__cant__al__carrito btn__cantidad">-</button>
-                            <h5 class="text-center">0</h5>
-                            <button  class="btn btn-primary btn-lg d-md-block btn__agregar__cant__al__carrito btn__cantidad">+</button>
+                            <div class="cantidad__numero">
+                                <button type="button" class="btn btn-primary btn-lg d-md-block btn__cantidad">-</button>
+                                <h5 class="text-center">0</h5>
+                                <button class="btn btn-primary btn-lg d-md-block btn__cantidad">+</button>
+                            </div>
                             <button class="btn btn-primary" type="button">Añadir al carrito</button>
                         </div>
 
                         <!-- Fin btns para versión móvil-->
 
-                        <button type="button"
-                            class="btn btn-primary btn-lg d-none d-md-block btn__agregar__cant__al__carrito btn__cantidad">-</button>
-                        <h5 class="d-none d-md-block text-center">0</h5> 
-                        <button type="button"
-                            class="btn btn-primary btn-lg d-none d-md-block btn__agregar__cant__al__carrito btn__cantidad">+</button>
-                        <button type="button"
-                            class="btn btn-secondary btn-lg d-none d-md-block btn__agregar__cant__al__carrito">Añadir al
-                            carrito </button>
+                        <div class="cantidad__numero">
+                            <button type="button"
+                                class="btn btn-primary btn-lg d-none d-md-block btn__cantidad">-</button>
+                            <h5 class="d-none d-md-block text-center">0</h5>
+                            <button type="button"
+                                class="btn btn-primary btn-lg d-none d-md-block btn__cantidad">+</button>
+                            </div>
+                            <button type="button"
+                                class="btn btn-secondary btn-lg d-none d-md-block btn__agregar__cant__al__carrito"
+                                id="btn__agregar__al__carrito"> 🛒 Añadir al
+                                carrito </button>
+                       
                     </div>
-
                 </div>
             </div>
 

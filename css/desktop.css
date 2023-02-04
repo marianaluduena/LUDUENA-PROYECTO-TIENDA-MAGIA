@@ -54,33 +54,6 @@ h1 {
 }
 
 
-
-/*............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO ................*/
-/*
-.producto__esposas__container{
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.producto__esposas__container > div{
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 45%;
-}
-
-.producto__esposas__container > div h3{
-    flex: 100%;
-    order: 1;
-    text-align: right;
-}
-
-.producto__esposas__container .esposas__img__container{
-    flex: 1 30%;
-    order: 3;
-    align-self: center;
-}*/
-
-
 /*........................BORRAR................*/
 .producto__main__container {
     flex-direction: row;
@@ -96,19 +69,6 @@ h1 {
 .producto__main__container .producto__titulo {
     flex: 100%;
 }
-
-/*
-.card__producto__esposas {
-    flex: 1 30%;
-    order: 1;
-}
-
-
-.producto__caracteristicas {
-    flex: 1;
-    order: 2;
-
-}*/
 
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 

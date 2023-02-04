@@ -247,8 +247,8 @@ span {
 }
 
 .card__producto__esposas {
-    width: 40rem;
-    margin: 1rem 0;
+    width: 500px;
+    margin: 1rem auto;
 }
 
 .producto__caracteristicas {
@@ -269,13 +269,17 @@ del{
     color: #e3dedeb0;
 }
 
-.btn__cantidad{
-    
+.cantidad__numero {
+    background-color: #0a4665;
+    display: flex;
+    border-radius: 8px;
 }
 
-.btn__agregar__cant__al__carrito{
+.btn__cantidad{
     margin: 1rem;
+    background-color: #0a4665;
 }
+
 
 /*
 .accordion {

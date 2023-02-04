@@ -102,14 +102,14 @@ span{
 }
 /*...............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO............*/
 
-.producto__main__container {
-    padding: 25px;
-}
-
 .producto__caracteristicas {
     margin: 1rem;
 }
 
+#btn__agregar__al__carrito{
+
+    margin-left: auto;
+}
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 
 iframe {
