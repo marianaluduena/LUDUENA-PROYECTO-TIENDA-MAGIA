@@ -2841,6 +2841,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);

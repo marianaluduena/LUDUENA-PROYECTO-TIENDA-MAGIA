@@ -53,23 +53,6 @@ h1 {
     width: 50%;
 }
 
-
-/*........................BORRAR................*/
-.producto__main__container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-
-.producto__main__container>div {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.producto__main__container .producto__titulo {
-    flex: 100%;
-}
-
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 
 iframe {

@@ -279,6 +279,17 @@ del {
     border-radius: 8px;
 }
 
+.btn-primary{
+    --bs--btn-hover-bg: rgb(247 175 21 / 86%); 
+    --bs-btn-active-bg: rgb(247 175 21 / 86%); 
+}
+
+.btn__agregar__al__carrito {
+
+    margin-left: auto;
+    background-color: #0a4665;
+}
+
 .btn__cantidad {
     margin: 1rem;
     background-color: #0a4665;
@@ -286,37 +297,8 @@ del {
 
 .cantidad__numero {
     margin: auto;
-    font-weight: bolder;
-}
-
-/*
-.accordion {
-    --bs-accordion-bg: #2f7587;
-    --bs-accordion-border-color: none;
-}
-
-.accordion-button {
-    background-color: rgb(247 175 21 / 80%);
     color: whitesmoke;
-    text-shadow: 1px 1px 1px black;
-    font-size: 1.4rem;
-    margin: 0.5rem auto;
-
 }
-
-.accordion-button:not(.collapsed) {
-    color: #ffc107;
-    background-color: #0a4665
-}
-
-span {
-    margin: 1.5rem;
-    font-size: 1.8rem;
-}
-
-.accordion .accordion__esposas__producto {
-    margin: 2rem auto;
-}*/
 
 .bg-secondary {
     background-color: rgb(247 175 21 / 86%) !important;
