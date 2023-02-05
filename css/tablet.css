@@ -1,6 +1,6 @@
 /*...............ESTILOS GRALES............*/
 
-section{
+section {
     padding: 1rem;
 }
 
@@ -10,33 +10,34 @@ li {
 }
 
 p {
-   
+
     padding: 1rem;
     font-size: 1rem;
     line-height: 2.5rem;
 }
 
 h2,
-h3{
+h3 {
     margin: 0 auto;
 
 }
 
-h2{
+h2 {
     font-size: 2rem;
- 
-  
- 
+
+
+
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
-  
+
 }
 
-h4{
+h4 {
     font-size: 1.4rem;
 }
+
 /*...............MENÚ DE NAVEGACIÓN............*/
 
 nav {
@@ -47,16 +48,16 @@ nav {
     border-radius: 15px;
 }
 
-nav .navbar-nav{
+nav .navbar-nav {
     padding: 1.5rem;
 }
 
 .navbar-nav>.nav-link.active {
     font-size: 1rem;
-  
+
 }
 
-.nav-link{
+.nav-link {
     border: none;
 }
 
@@ -67,14 +68,15 @@ nav .navbar-nav{
 }
 
 
-.container__texto__fondo{
+.container__texto__fondo {
     margin: 2rem auto;
 }
 
-.card__fondo__transparente{
+.card__fondo__transparente {
     margin: 2rem;
 
 }
+
 /*...............SECCIÓN: PRODUCTOS............*/
 
 .accordion {
@@ -88,7 +90,7 @@ nav .navbar-nav{
     text-shadow: 1px 1px 1px black;
     font-size: 1.4rem;
     margin: 0.5rem auto;
-   
+
 }
 
 .accordion-button:not(.collapsed) {
@@ -96,20 +98,23 @@ nav .navbar-nav{
     background-color: #0a4665
 }
 
-span{
+span {
     margin: 1.5rem;
     font-size: 1.8rem;
 }
+
 /*...............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO............*/
 
 .producto__caracteristicas {
     margin: 1rem;
 }
 
-#btn__agregar__al__carrito{
+.btn__agregar__al__carrito {
 
     margin-left: auto;
+    background-color: #0a4665;
 }
+
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 
 iframe {
@@ -120,30 +125,30 @@ iframe {
 
 /*................SECCIÓN: FORMULARIO.........................*/
 
-label{
+label {
     text-align: center;
     font-size: 1.5rem;
 }
 
-.form-control{
+.form-control {
     padding: 1rem;
 }
 
-input .form-control{
+input .form-control {
     width: 300px;
 }
 
-#opciones{
+#opciones {
     margin: 2rem auto;
 }
 
-#magiaFav{
-  
+#magiaFav {
+
     padding: 0.5rem;
     font-size: 1.4rem;
 }
 
-#comentarios{
+#comentarios {
     min-height: 20rem;
     font-size: 1.2rem;
 }
@@ -156,6 +161,6 @@ input .form-control{
 
 /*........................FOOTER: ACERCA DE MÍ..........*/
 
-.skills__card{
+.skills__card {
     max-height: 600px;
 }

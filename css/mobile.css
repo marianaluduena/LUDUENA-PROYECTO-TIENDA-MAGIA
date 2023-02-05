@@ -70,11 +70,11 @@ h4 {
     border-radius: 4px;
 }
 
-section{
+section {
     padding: 0;
 }
 
-.container__texto__fondo{
+.container__texto__fondo {
     background-color: #5f9ea04f;
     border-radius: 5px;
 }
@@ -86,7 +86,7 @@ p {
     color: whitesmoke;
     line-height: 2rem;
     margin-bottom: 0;
- 
+
 }
 
 img {
@@ -108,7 +108,7 @@ a {
     color: whitesmoke;
 }
 
-a:hover{
+a:hover {
     color: rgb(247, 175, 21);
 }
 
@@ -116,13 +116,13 @@ nav {
     border-radius: 0%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     height: 4rem;
     background-color: #16161687;
 
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     margin: auto;
     background-color: rgb(247, 175, 21);
     border-radius: 3px;
@@ -152,13 +152,14 @@ nav {
 
 }
 
-.navbar-nav>.nav-link.active:hover{
-    color:rgb(247, 175, 21);
+.navbar-nav>.nav-link.active:hover {
+    color: rgb(247, 175, 21);
 }
 
-.favicon{
+.favicon {
     height: 4.5rem;
 }
+
 /*.........SECCIÓN: NOSOTROS.......*/
 
 .card__fondo__transparente {
@@ -167,7 +168,7 @@ nav {
     margin: 1rem auto;
 }
 
-.card-text{
+.card-text {
     margin-bottom: 0.5rem;
 }
 
@@ -179,18 +180,21 @@ nav {
     border-radius: 5px;
 }
 
-.img__nosotros{
+.img__nosotros {
     margin: 0.5rem auto;
     background-color: rgb(247, 175, 21);
 }
 
-.g-5, .gy-5 {
+.g-5,
+.gy-5 {
     --bs-gutter-y: 1rem;
 }
 
-.g-5, .gx-5 {
+.g-5,
+.gx-5 {
     --bs-gutter-x: 1rem;
 }
+
 /*.........SECCIÓN: CATEGORÍAS.......*/
 
 .text-secondary {
@@ -220,7 +224,7 @@ span {
     background-color: #16161687;
 }
 
-.precio{
+.precio {
     font-size: 1.5rem;
 }
 
@@ -256,30 +260,34 @@ span {
     margin: 0;
 }
 
-#heading__sin__bg__color{
+#heading__sin__bg__color {
     background-color: #5f9ea00a;
     font-weight: bolder;
 }
 
-h4 > del{
+h4>del {
     padding: 0.5rem;
 }
 
-del{
+del {
     color: #e3dedeb0;
 }
 
-.cantidad__numero {
+.cantidad__container {
     background-color: #0a4665;
     display: flex;
     border-radius: 8px;
 }
 
-.btn__cantidad{
+.btn__cantidad {
     margin: 1rem;
     background-color: #0a4665;
 }
 
+.cantidad__numero {
+    margin: auto;
+    font-weight: bolder;
+}
 
 /*
 .accordion {
@@ -310,16 +318,17 @@ span {
     margin: 2rem auto;
 }*/
 
-.bg-secondary{
+.bg-secondary {
     background-color: rgb(247 175 21 / 86%) !important;
 }
 
-.btn__precio__producto__individual__container{
+.btn__precio__producto__individual__container {
 
     display: flex;
     padding: 0.5rem;
     margin: 1rem;
 }
+
 /*............SECCIÓN: BENEFICIOS................*/
 
 .card .titulo__beneficios {
@@ -387,14 +396,14 @@ input {
 #magiaFav {
     padding: 0.5rem;
     font-size: 1.3rem;
- 
+
 }
 
 #datos {
     width: 210px;
 }
 
-.container__form__textarea{
+.container__form__textarea {
 
     width: 100%;
     margin: auto;
@@ -441,27 +450,28 @@ form>select {
 /*............FOOTER: ACERCA DE MI................*/
 
 
-.skills__img__container{
+.skills__img__container {
     background-color: #306775bd;
 }
 
-ul.skills__lista{
+ul.skills__lista {
 
     color: whitesmoke;
     font-family: Lora, Arial, Helvetica, sans-serif;
     margin: 2rem auto;
 }
 
-ul.skills__lista > li {
+ul.skills__lista>li {
 
     padding: 0.5rem;
 }
 
-.link__btn__redes{
+.link__btn__redes {
     display: flex;
     justify-content: center;
     margin: 1rem;
 }
+
 /*............FOOTER: EMPRESA................*/
 .list-group-item {
     padding: 1.5rem;
@@ -472,22 +482,23 @@ ul.skills__lista > li {
     border-style: dotted;
 }
 
-.footer__empresa{
+.footer__empresa {
     background-color: #16161687;
     color: whitesmoke;
-    font-family: "Playfair", Arial, Helvetica, sans-serif;;
+    font-family: "Playfair", Arial, Helvetica, sans-serif;
+    ;
 
 }
 
-.footer__empresa li:hover{
+.footer__empresa li:hover {
     color: rgb(247, 175, 21);
 }
 
-#footer__logo{
+#footer__logo {
     display: flex;
     background-color: #306775bd;
 }
 
-#footer__titulo__empresa{
+#footer__titulo__empresa {
     background-color: #306775bd;
 }
