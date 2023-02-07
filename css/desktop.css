@@ -84,6 +84,13 @@ textarea {
 .form__btn {
     font-size: 1.5rem;
     width: 20%;
-    margin: 3.5rem auto;
+}
+
+/*........................FOOTER:EMPRESA..........*/
+
+#btn__newsletter{
+
+    width: 50%;
+
 }
 

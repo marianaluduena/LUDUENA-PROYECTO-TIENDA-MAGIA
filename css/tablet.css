@@ -149,8 +149,16 @@ input .form-control {
 .form__btn {
     font-size: 1.3rem;
     width: 70%;
-    margin: 3rem auto;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
 }
+/*........................FOOTER:EMPRESA..........*/
+
+#btn__newsletter{
+
+    width: 100%;
+}
+
 
 /*........................FOOTER: ACERCA DE MÍ..........*/
 

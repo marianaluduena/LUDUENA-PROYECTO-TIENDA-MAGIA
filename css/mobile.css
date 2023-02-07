@@ -455,6 +455,7 @@ ul.skills__lista>li {
 }
 
 /*............FOOTER: EMPRESA................*/
+
 .list-group-item {
     padding: 1.5rem;
     background-color: #0b4554;
@@ -474,6 +475,15 @@ ul.skills__lista>li {
 
 .footer__empresa li:hover {
     color: rgb(247, 175, 21);
+}
+
+#newsletter{
+    display: flex;
+}
+
+#btn__newsletter{
+    display: flex;
+    justify-content: center;
 }
 
 #footer__logo {
