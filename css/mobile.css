@@ -481,6 +481,11 @@ ul.skills__lista>li {
     display: flex;
 }
 
+#input__newsletter{
+
+    width: 100%;
+}
+
 #btn__newsletter{
     display: flex;
     justify-content: center;

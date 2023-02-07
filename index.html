@@ -1372,8 +1372,12 @@
                     <hr />
                     <div class="container">
                         <label for="newsletter" id="newsletter" name="newsletter">
-                            <input class="form-control" type="email"
-                                placeholder="Ingresá tu mail para recibir beneficios!" required />
+                            <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email" placeholder="Ingresá tu mail" required />
+
+                            <!-- Input sólo versión lg-->
+
+                            <input class="form-control d-none d-lg-block" id="input__newsletter" type="email" placeholder="Ingresá tu mail y recibí beneficios!" required />
+
                         </label>
                         <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
                     </div>
