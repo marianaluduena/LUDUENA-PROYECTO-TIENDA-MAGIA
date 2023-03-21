@@ -418,7 +418,7 @@ input {
 }
 
 form>button {
-    font-family: 'Lora'Arial, Helvetica, sans-serif;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
     margin: 3rem auto;
     font-size: 1.2rem;
 
@@ -439,7 +439,7 @@ form>select {
 ul.skills__lista {
 
     color: whitesmoke;
-    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
     margin: 2rem auto;
 }
 
@@ -455,6 +455,7 @@ ul.skills__lista>li {
 }
 
 /*............FOOTER: EMPRESA................*/
+
 .list-group-item {
     padding: 1.5rem;
     background-color: #0b4554;
@@ -468,12 +469,26 @@ ul.skills__lista>li {
     background-color: #16161687;
     color: whitesmoke;
     font-family: "Playfair", Arial, Helvetica, sans-serif;
-    ;
-
 }
 
-.footer__empresa li:hover {
-    color: rgb(247, 175, 21);
+.list-unstyled li{
+
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    margin: 0.5rem auto;
+}
+
+#newsletter{
+    display: flex;
+}
+
+#input__newsletter{
+
+    width: 100%;
+}
+
+#btn__newsletter{
+    display: flex;
+    justify-content: center;
 }
 
 #footer__logo {

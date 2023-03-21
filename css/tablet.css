@@ -125,6 +125,7 @@ label {
 
 .form-control {
     padding: 1rem;
+    width: 80%;
 }
 
 input .form-control {
@@ -149,8 +150,20 @@ input .form-control {
 .form__btn {
     font-size: 1.3rem;
     width: 70%;
-    margin: 3rem auto;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
 }
+/*........................FOOTER:EMPRESA..........*/
+
+#input__newsletter__sm__y__md{
+    width: 100%;
+}
+
+#btn__newsletter{
+
+    width: 100%;
+}
+
 
 /*........................FOOTER: ACERCA DE MÍ..........*/
 
