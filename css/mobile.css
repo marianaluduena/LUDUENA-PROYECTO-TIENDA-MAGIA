@@ -128,7 +128,8 @@ nav {
     border-radius: 3px;
 }
 
-.navbar-nav {
+nav .navbar-nav {
+    flex-direction: column;
     justify-content: center;
     margin: 0 auto;
 }
@@ -160,6 +161,9 @@ nav {
     height: 4.5rem;
 }
 
+div>.container-fluid{
+    justify-content: space-between;
+}
 /*.........SECCIÓN: NOSOTROS.......*/
 
 .card__fondo__transparente {
