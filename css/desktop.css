@@ -1,16 +1,23 @@
+
+
 nav {
-    max-width: 980px;
+    max-width: 100%;
 
-}
-
-nav .navbar-nav {
-    padding: 2rem;
 }
 
 .navbar-nav>.nav-link.active {
     font-size: 1rem;
 
 }
+
+.navbar>.container-fluid{
+    justify-content: flex-start;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
 
 h1 {
     font-size: 4.5rem;

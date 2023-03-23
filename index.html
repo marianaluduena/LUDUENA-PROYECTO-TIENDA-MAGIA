@@ -40,7 +40,7 @@
 <body>
 
     <!-- Menú de navegación -->
-<!-- 
+    <!-- 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -64,10 +64,11 @@
             </ul>
           </div>
         </div>
-      </nav>
--->
+      </nav>-->
 
-    <nav class="navbar navbar-expand-md">
+
+    <!-- Código nav original ahora sólo visible en mobile-->
+    <nav class="navbar navbar-expand-md ">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
                 <img class="favicon" src="./img/varios/logo.png" alt="Cofre mágico abriéndose" width="70" height="50">
@@ -92,6 +93,30 @@
     </nav>
 
     <main class="container">
+
+<!-- Código nav de prueba para md y lg-->
+
+<!-- <nav class="navbar d-none d-md-block">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+            <img class="favicon" src="./img/varios/logo.png" alt="Cofre mágico abriéndose" width="70" height="50">
+        </a>
+
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+                <a class="nav-link active" href="#categorias">Categorías</a>
+                <a class="nav-link active" href="#productos">Productos</a>
+                <a class="nav-link active" href="#beneficios">¿Por qué aprender magia?</a>
+                <a class="nav-link active" href="#contacto">Contacto</a>
+         
+        </div>
+    </div>
+</nav>-->
+
+
+
+
 
         <header class="container d-flex justify-content-center">
             <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1>
@@ -1398,11 +1423,13 @@
                     <hr />
                     <div class="container">
                         <label for="newsletter" id="newsletter" name="newsletter">
-                            <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email" placeholder="Ingresá tu mail" required />
+                            <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email"
+                                placeholder="Ingresá tu mail" required />
 
                             <!-- Input sólo versión lg-->
 
-                            <input class="form-control d-none d-lg-block" id="input__newsletter" type="email" placeholder="Ingresá tu mail y recibí beneficios!" required />
+                            <input class="form-control d-none d-lg-block" id="input__newsletter" type="email"
+                                placeholder="Ingresá tu mail y recibí beneficios!" required />
 
                         </label>
                         <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
