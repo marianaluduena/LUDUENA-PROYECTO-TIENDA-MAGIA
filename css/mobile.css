@@ -322,6 +322,12 @@ del {
     margin-top: 1.5rem;
 }
 
+/*..................SECCIÓN: MIRÁ ÉSTE EFECTO....*/
+
+#cartas__efecto{
+    max-width: 290px;
+}
+
 /*............SECCIÓN: CONTACTO................*/
 
 form {
