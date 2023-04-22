@@ -79,7 +79,7 @@ section {
     border-radius: 5px;
 }
 
-p {
+p{
     text-align: start;
     font-family: "Lora", Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
@@ -322,6 +322,9 @@ del {
     margin-top: 1.5rem;
 }
 
+/*..................SECCIÓN: MIRÁ ÉSTE EFECTO....*/
+
+
 /*............SECCIÓN: CONTACTO................*/
 
 form {
@@ -437,7 +440,7 @@ form>select {
 
 
 .skills__img__container {
-    background-color: #306775bd;
+    background-color: #abdbe7bd;
 }
 
 ul.skills__lista {
