@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   /* outline: 1px solid purple;*/
+    /* outline: 1px solid purple;*/
 }
 
 /*.........ESTILOS GENERALES.......*/
@@ -79,7 +79,7 @@ section {
     border-radius: 5px;
 }
 
-p{
+p {
     text-align: start;
     font-family: "Lora", Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
@@ -161,9 +161,21 @@ nav .navbar-nav {
     height: 4.5rem;
 }
 
-div>.container-fluid{
+div>.container-fluid {
     justify-content: space-between;
 }
+
+/*.........SECCIÓN: HOME.......*/
+
+/*
+.cartel__iconos__envios__pagos__whsp{
+    display: block;
+}*/
+
+.img__icono {
+    height: 50px;
+}
+
 /*.........SECCIÓN: NOSOTROS.......*/
 
 .card__fondo__transparente {
@@ -283,9 +295,9 @@ del {
     border-radius: 8px;
 }
 
-.btn-primary{
-    --bs--btn-hover-bg: rgb(247 175 21 / 86%); 
-    --bs-btn-active-bg: rgb(247 175 21 / 86%); 
+.btn-primary {
+    --bs--btn-hover-bg: rgb(247 175 21 / 86%);
+    --bs-btn-active-bg: rgb(247 175 21 / 86%);
 }
 
 .btn__agregar__al__carrito {
@@ -323,8 +335,8 @@ del {
 }
 
 /*..................SECCIÓN: MIRÁ ÉSTE EFECTO....*/
-#link__psychology__today{
-    text-decoration:underline;
+#link__psychology__today {
+    text-decoration: underline;
 }
 
 /*............SECCIÓN: CONTACTO................*/
@@ -480,22 +492,22 @@ ul.skills__lista>li {
     font-family: "Playfair", Arial, Helvetica, sans-serif;
 }
 
-.list-unstyled li{
+.list-unstyled li {
 
     font-family: "Lora", Arial, Helvetica, sans-serif;
     margin: 0.5rem auto;
 }
 
-#newsletter{
+#newsletter {
     display: flex;
 }
 
-#input__newsletter{
+#input__newsletter {
 
     width: 100%;
 }
 
-#btn__newsletter{
+#btn__newsletter {
     display: flex;
     justify-content: center;
 }
