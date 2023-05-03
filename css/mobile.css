@@ -167,13 +167,28 @@ div>.container-fluid {
 
 /*.........SECCIÓN: HOME.......*/
 
-/*
+
 .cartel__iconos__envios__pagos__whsp{
-    display: block;
-}*/
+    background-color: #306775bd;
+    padding: 1.5rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.container__icono{
+    display: flex;
+    align-items: center;
+}
 
 .img__icono {
     height: 50px;
+}
+
+.span__iconos{
+    display: inline-block;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
 }
 
 /*.........SECCIÓN: NOSOTROS.......*/

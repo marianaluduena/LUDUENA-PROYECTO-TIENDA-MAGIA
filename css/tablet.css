@@ -62,10 +62,10 @@ nav .navbar-nav {
 
 /*.........SECCIÓN: HOME.......*/
 
-/*
+
 .cartel__iconos__envios__pagos__whsp{
-    display: flex;
-}*/
+    justify-content: space-around;
+}
 
 /*...............SECCIÓN: NOSOTROS............*/
 
