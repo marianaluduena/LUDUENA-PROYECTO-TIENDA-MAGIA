@@ -75,8 +75,18 @@
         <!-- Carrousel-->
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-lg-block" data-bs-ride="carousel">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+
             <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="5000">
+                <div class="carousel-item active" data-interval="1000">
                     <img src="./img/carrousel/cartas__ps__4.jpg" class="d-block w-100 img-fluid img__carrousel"
                         alt="Carta de póker flotando">
                     <div class="carousel-caption d-none d-md-block">
@@ -86,7 +96,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item" data-interval="5000">
+                <div class="carousel-item" data-interval="1000">
                     <img src="./img/carrousel/esposas__ps__2.jpg" class="d-block w-100 img-fluid img__carrousel"
                         alt="Esposas de escapismo">
                     <div class="carousel-caption d-none d-md-block">
@@ -96,7 +106,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item" data-interval="5000">
+                <div class="carousel-item" data-interval="1000">
                     <img src="./img/carrousel/fuego.jpg" class="d-block w-100 img-fluid img__carrousel"
                         alt="Magia con fuego">
                     <div class="carousel-caption d-none d-md-block">
@@ -106,7 +116,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-item" data-interval="5000">
+                <div class="carousel-item" data-interval="1000">
                     <img src="./img/carrousel/panuelo.jpg" class="d-block w-100 img-fluid img__carrousel"
                         alt="Pañuelo atravesando teléfono celular">
                     <div class="carousel-caption d-none d-md-block">
@@ -116,17 +126,34 @@
                     </div>
                 </div>
 
-                <div class="carousel-item" data-interval="5000">
+                <div class="carousel-item" data-interval="1000">
                     <img src="./img/carrousel/sogas__ps.jpg" class="d-block w-100 img-fluid img__carrousel"
                         alt="Manos sosteniendo una cuerda">
                     <div class="carousel-caption d-none d-md-block">
-                        <p class="box b1 animUno parrafo__carrousel">
-                            La magia es mucho más de lo que parece
-                        </p>
+                       <!--  <p class="box b1 animUno parrafo__carrousel">
+                            Conocé más
+                        </p>-->
+                        <button class="btn btn-danger">Conocé más</button>
                     </div>
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+
             </div>
         </div>
+
+        <!-- Home -->
+
+        <section class="row">
+
+        </section>
 
         <!-- Historia y filosofía de la empresa-->
         <section class="row">
@@ -1293,8 +1320,10 @@
                     <div class="container__texto__fondo">
 
                         <p class="card-text">
-                        Hablando de <strong>magia</strong>, ¿te gustaría ver un efecto ahora mismo? Vamos a jugar con tu mente e intentaremos
-                        engañarla desde tu pantalla con el siguiente juego  aquí: 👉 <a href="./truco/efecto.html">Ver efecto</a>. 
+                            Hablando de <strong>magia</strong>, ¿te gustaría ver un efecto ahora mismo? Vamos a jugar
+                            con tu mente e intentaremos
+                            engañarla desde tu pantalla con el siguiente juego aquí: 👉 <a
+                                href="./truco/efecto.html">Ver efecto</a>.
                         </p>
                     </div>
                 </div>
@@ -1448,7 +1477,8 @@
                         <div class="card skills__card mx-1">
 
                             <div class="skills__img__container px-2">
-                                <img src="./img/perfil__ml/skills.png" class="card-img-top" alt="Icono de una computadora">
+                                <img src="./img/perfil__ml/skills.png" class="card-img-top"
+                                    alt="Icono de una computadora">
                             </div>
 
                             <div class="card-body">
@@ -1504,7 +1534,8 @@
                         <div class="card skills__card mx-1">
 
                             <div class="skills__img__container px-2">
-                                <img src="./img/perfil__ml/socialmedia_rubikscube.png" class="card-img-top" alt="Iconos redes sociales en cubos">
+                                <img src="./img/perfil__ml/socialmedia_rubikscube.png" class="card-img-top"
+                                    alt="Iconos redes sociales en cubos">
                             </div>
 
                             <div class="card-body">
