@@ -356,6 +356,7 @@ del {
 
 /*............SECCIÓN: CONTACTO................*/
 
+/*
 form {
 
     padding: 1.5rem;
@@ -438,21 +439,6 @@ input {
     border-radius: 5px;
 }
 
-.form__btn {
-    width: 80%;
-    margin: 1.5rem auto;
-    padding: 1rem;
-    background-color: #2f7587;
-    font-family: "Playfair", Arial, Helvetica, sans-serif;
-}
-
-.btn-primary {
-
-    --bs-btn-border-color: none;
-    --bs-btn-hover-bg: rgb(247, 175, 21);
-    --bs-btn-active-bg: rgb(247, 175, 21);
-}
-
 form>button {
     font-family: "Lora", Arial, Helvetica, sans-serif;
     margin: 3rem auto;
@@ -463,6 +449,27 @@ form>button {
 form>select {
     margin: 3rem auto;
     padding: 1rem;
+} */
+
+
+.form__btn {
+    width: 80%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    background-color: #2f7587;
+    font-family: "Playfair", Arial, Helvetica, sans-serif;
+}
+
+.btn-primary{
+
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: rgb(247, 175, 21);
+    --bs-btn-active-bg: rgb(247, 175, 21);
+}
+
+
+.btn__small{
+    background-color: rgb(247, 175, 21);
 }
 
 /*............FOOTER: ACERCA DE MI................*/

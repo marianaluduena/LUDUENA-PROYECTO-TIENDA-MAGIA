@@ -130,9 +130,13 @@ label {
 }
 
 .form-control {
+    padding: 0.5rem;
+}
+/*
+.form-control {
     padding: 1rem;
     width: 80%;
-}
+} */
 
 input .form-control {
     width: 300px;
