@@ -75,22 +75,21 @@
                         aria-label="Search">
                     <button class="btn btn-primary btn__small" type="submit">Buscar</button>
                 </form>
-              
+
             </div>
         </div>
 
-           <!-- Barra de búsqueda sólo para md -->
-           <div class="d-none d-md-flex d-lg-none m-auto my-2">
-        <form class="d-none d-md-flex d-lg-none m-auto my-2" role="search">
-            <input class="form-control me-2" type="search" placeholder="Qué estás buscando?"
-                aria-label="Search">
-            <button class="btn btn-primary btn__small" type="submit">Buscar</button>
-        </form>
-           </div>
+        <!-- Barra de búsqueda sólo para md -->
+        <div class="d-none d-md-flex d-lg-none m-auto my-2">
+            <form class="d-none d-md-flex d-lg-none m-auto my-2" role="search">
+                <input class="form-control me-2" type="search" placeholder="Qué estás buscando?" aria-label="Search">
+                <button class="btn btn-primary btn__small" type="submit">Buscar</button>
+            </form>
+        </div>
     </nav>
 
 
-    
+
 
     <main class="container">
         <header class="container d-flex justify-content-center">
@@ -1457,9 +1456,86 @@
         </section>
     </main>
 
-    <footer class="container">
+    <!-- Intento de Footer-->
 
-        <!-- Footer del sitio de la empresa-->
+    <footer class="pt-5 pb-4 text-md-left container footer__empresa">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">El baúl mágico</h3>
+                    <hr />
+                    <label for="newsletter" id="newsletter" name="newsletter">
+                        <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email"
+                            placeholder="Ingresá tu mail" required />
+
+                        <!--  Input sólo versión lg -->
+
+                        <input class="form-control d-none d-lg-block" id="input__newsletter" type="email"
+                            placeholder="Ingresá tu mail y recibí beneficios!" required />
+
+                    </label>
+                    <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
+                </div>
+
+                <div class="col-md-2 col-lg-2 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">Productos</h3>
+                    <hr />
+                    <ul class="list-unstyled">
+                        <a href="#productos">
+                            <li>Todos</li>
+                        </a>
+                        <a href="#productos">
+                            <li>Cartomagia</li>
+                        </a>
+                        <a href="#productos">
+                            <li>Manipulación</li>
+                        </a>
+                        <a href="#productos">
+                            <li>Mentalismo</li>
+                        </a>
+                        <a href="#productos">
+                            <li>Magia de escenario</li>
+                        </a>
+                        <a href="#productos">
+                            <li>Escapismo</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-lg-2 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">Nosotros</h3>
+                    <hr />
+                    <ul class="list-unstyled">
+                        <a href="#nosotros">
+                            <li>Historia</li>
+                        </a>
+                        <a href="#productos">
+                            <li>Productos</li>
+                        </a>
+                        <a href="#contacto">
+                            <li>Contacto</li>
+                        </a>
+                        <li>Acerca de</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-3 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">Contacto</h3>
+                    <hr />
+                    <ul class="list-unstyled">
+                        <li>🏠 Av. Siempreviva 456, CABA</li>
+                        <li>⏲️ Días y horarios de atención: Lun a Vie: de 10 a 17 hs y Sáb: 10 a 13.30 hs.</li>
+                        <li>📞 Tel.: +54 1122-3344</li>
+                        <li>📧 E-mail: www.elbaulmagico@info.com.ar</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer ORIGINAL del sitio de la empresa
 
         <div class="container footer__empresa">
             <div class="row">
@@ -1473,7 +1549,7 @@
                             <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email"
                                 placeholder="Ingresá tu mail" required />
 
-                            <!-- Input sólo versión lg-->
+                             Input sólo versión lg
 
                             <input class="form-control d-none d-lg-block" id="input__newsletter" type="email"
                                 placeholder="Ingresá tu mail y recibí beneficios!" required />
@@ -1518,7 +1594,7 @@
                     </ul>
                 </div>
             </div>
-            <!-- Fin container del footer de la web-->
+             Fin container del footer de la web
         </div>
 
         <h2 class="my-3 my-md-5 text-md-center py-3 px-2">Acerca de mí</h2>
@@ -1618,7 +1694,7 @@
         </div>
 
 
-    </footer>
+    </footer> -->
 
     <script src="./bst/js/bootstrap.bundle.min.js"></script>
     <script src="./bst/js/bootstrap.bundle.min.js.map"></script>
