@@ -55,12 +55,15 @@ h3 {
     font-size: 1.4rem;
 }
 
-
 h2,
 h3 {
     background-color: #306775bd;
     padding: 0.5rem;
+    width: 100%;
+}
 
+.titulo__especial{
+    width: 100%;
 }
 
 h2,

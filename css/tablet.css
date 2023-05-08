@@ -19,19 +19,18 @@ p {
 h2,
 h3 {
     margin: 0 auto;
+}
 
+.titulo__especial{
+    width: 90%;
 }
 
 h2 {
     font-size: 2rem;
-
-
-
 }
 
 h3 {
     font-size: 1.5rem;
-
 }
 
 h4 {
