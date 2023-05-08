@@ -62,6 +62,7 @@ h3 {
     width: 100%;
 }
 
+/*CLASE HECHA EL 08/05 */
 .titulo__especial{
     width: 100%;
 }
@@ -167,6 +168,22 @@ nav .navbar-nav {
 
 div>.container-fluid {
     justify-content: space-between;
+}
+
+/*CSS PARA EL MENÚ DESPLEGABLE DE PRODUCTOS HECHO EL 08/05*/
+
+.categorias__menu, .niveles__menu{
+    position: relative;
+}
+
+.ul-second{
+    display: none;
+    position: absolute;
+}
+
+.ul-second > li{
+width: 190px;
+transform: translate(-20px);
 }
 
 /*.........SECCIÓN: HOME.......*/
