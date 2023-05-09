@@ -212,6 +212,10 @@ transform: translate(-20px);
     border-radius: 5px;
 }
 
+.btn__ver__mas{
+    width: 200px;
+}
+
 /*.........SECCIÓN: NOSOTROS.......*/
 
 .card__fondo__transparente {

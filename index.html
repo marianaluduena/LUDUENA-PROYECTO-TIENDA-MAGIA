@@ -44,7 +44,7 @@
 
         <!-- Barra de búsqueda sólo para mobile -->
 
-         <form class="d-flex d-md-none m-auto my-2" role="search">
+        <form class="d-flex d-md-none m-auto my-2" role="search">
             <input class="form-control me-2" type="search" placeholder="Qué estás buscando?" aria-label="Search">
             <button class="btn btn-primary btn__small" type="submit">Buscar</button>
         </form>
@@ -443,24 +443,27 @@
 
             <h3 class="titulo__especial my-4 my-md-5 text-md-center py-3">Visitanos</h3>
 
-            <div class="d-flex container">
+            <div class="d-block d-lg-flex container">
                 <div class="card mb-3 col-md-10 m-md-auto m-lg-0 col-lg-4">
                     <img src="./img/varios/tienda__magia.jpg" class="card-img-top img-fluid" alt="Tienda de magia">
                     <div class="card-body">
                         <h4 class="card-title">Nuestra tienda</h4>
-                        <p class="card-text">Somos una de las más grandes tiendas de magia profesional que existen. ¡Vení
-                            a conocer dónde se crea la magia más impactante!</p>
-                        <button class="btn btn-primary">Ver más</button>
+                        <p class="card-text">Somos una de las más grandes <strong> tiendas de magia profesional</strong>
+                            que existen.
+                            ¡Vení
+                            a conocer dónde se crea la <strong>magia</strong> más impactante!</p>
+                        <button class="btn btn-primary btn__comprar btn__ver__mas">Ver más</button>
                     </div>
                 </div>
-                 
-                <div class="mapa d-block d-md-flex">
+
+                <div class="mapa d-block d-md-flex m-none m-lg-3">
+
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.206972802417!2d-58.418376719523906!3d-34.57362916170137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a4b0bfa81f%3A0x8ac02953c50eed5b!2sPatio%20Andaluz!5e0!3m2!1ses!2sar!4v1683560355278!5m2!1ses!2sar"
-                        width="600px" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="align-end"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.6943541188234!2d-58.4219526266474!3d-34.581312656600566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5837660ebb7%3A0xd80f6e5d08a2d8ba!2sThames%202483%2C%20C1425FII%20CABA!5e0!3m2!1ses!2sar!4v1683629673506!5m2!1ses!2sar"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div> 
-          </div> 
+                </div>
+            </div>
         </section>
 
         <!-- Descripción de los productos -->
@@ -1500,8 +1503,9 @@
 
                     <div class="col-12 col-md-6 mb-3">
                         <div class="mb-3">
+
                             <label for="exampleInputEmail1" class="form-label datos">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                            <input type="email" class="form-control form-control" id="email" aria-describedby="email"
                                 placeholder="Ingresá tu email" required>
                         </div>
                     </div>
@@ -1527,10 +1531,17 @@
                     </div>
 
                     <label for="comentarios" class="form-label"> </label>
-
+                    <!-- 
                     <div class="container__form__textarea">
                         <textarea id="comentarios" name="comentarios"
                             placeholder="Escribí aquí tu consulta o comentario" rows="3"></textarea>
+                    </div>-->
+
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
                     </div>
 
                     <button type="submit" class="btn btn-primary form__btn">Enviar</button>
