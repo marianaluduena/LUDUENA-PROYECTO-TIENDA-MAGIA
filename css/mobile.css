@@ -16,8 +16,7 @@ body {
 }
 
 header,
-main
- {
+main {
     background-color: #16161687;
     max-width: 1680px;
 }
@@ -63,7 +62,7 @@ h3 {
 }
 
 /*CLASE HECHA EL 08/05 */
-.titulo__especial{
+.titulo__especial {
     width: 100%;
 }
 
@@ -80,7 +79,8 @@ section {
 }
 
 .container__texto__fondo {
-    background-color: #5f9ea04f;
+    /*  background-color: #5f9ea04f; */
+    background-color: #0d6f7270;
     border-radius: 5px;
 }
 
@@ -172,31 +172,32 @@ div>.container-fluid {
 
 /*CSS PARA EL MENÚ DESPLEGABLE DE PRODUCTOS HECHO EL 08/05*/
 
-.categorias__menu, .niveles__menu{
+.categorias__menu,
+.niveles__menu {
     position: relative;
 }
 
-.ul-second{
+.ul-second {
     display: none;
     position: absolute;
 }
 
-.ul-second > li{
-width: 190px;
-transform: translate(-20px);
+.ul-second>li {
+    width: 190px;
+    transform: translate(-20px);
 }
 
 /*.........SECCIÓN: HOME.......*/
 
 
-.cartel__iconos__envios__pagos__whsp{
+.cartel__iconos__envios__pagos__whsp {
     background-color: #306775bd;
     padding: 1.5rem;
     width: 100%;
     border-radius: 4px;
 }
 
-.container__icono{
+.container__icono {
     display: flex;
     align-items: center;
 }
@@ -205,14 +206,14 @@ transform: translate(-20px);
     height: 50px;
 }
 
-.span__iconos{
+.span__iconos {
     display: inline-block;
     padding: 0.7rem;
     font-size: 0.9rem;
     border-radius: 5px;
 }
 
-.btn__ver__mas{
+.btn__ver__mas {
     width: 200px;
 }
 
@@ -379,6 +380,10 @@ del {
     text-decoration: underline;
 }
 
+#img__teatro {
+    height: auto;
+}
+
 /*............SECCIÓN: CONTACTO................*/
 
 /*
@@ -484,7 +489,7 @@ form>select {
     font-family: "Playfair", Arial, Helvetica, sans-serif;
 }
 
-.btn-primary{
+.btn-primary {
 
     --bs-btn-border-color: none;
     --bs-btn-hover-bg: rgb(247, 175, 21);
@@ -492,7 +497,7 @@ form>select {
 }
 
 
-.btn__small{
+.btn__small {
     background-color: rgb(247, 175, 21);
 }
 

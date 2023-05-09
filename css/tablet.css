@@ -121,6 +121,12 @@ iframe {
     margin: 3rem auto;
 }
 
+/*........................SECCIÓN: EFECTO..........*/
+
+#img__teatro{
+    height: 400px;
+}
+
 /*................SECCIÓN: FORMULARIO.........................*/
 
 label {

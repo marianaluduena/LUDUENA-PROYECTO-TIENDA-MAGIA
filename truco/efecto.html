@@ -71,27 +71,50 @@
     <main class="container">
 
         <header class="container d-flex justify-content-center">
-            <!-- <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1> -->
+            <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1>
         </header>
 
-        <article class="my-2">
+        <section class="my-2">
 
-            <h2 class="titulo__especial text-md-center">Efecto de la carta elegida</h2>
+            <div class="d-flex">
+                <div class="card bg-dark text-white m-auto">
+                    <!-- Optimizar IMG-->
+                    <img src="../img/varios/teatro.jpeg" id="img__teatro" class="card-img img-fluid" alt="Teatro">
+                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <!--  <h2 class="text-md-center">Efecto de la carta elegida</h2> -->
+                       
+                        <div class="row g-0 ps-1">
 
-            <!-- AGREGAR UNA IMG ILUSTRATIVA -->
+                            <div class="container__texto__fondo">
+                                <h2 class="text-md-left d-none d-md-block">¡Que venga la magia!</h2>
+                                <p class="card-text d-none d-md-block">
+                                    Nuestra tienda no podía estar completa sin un efecto de <strong>magia</strong> ¿o sí? Para hacer
+                                    de éste sitio uno más entretenido te presentamos un efecto muy curioso publicado originalmente
+                                    en inglés en la web <a lang="en" target="_blank" id="link__psychology__today"
+                                        href="https://www.psychologytoday.com/intl/blog/long-fuse-big-bang/202203/the-neuroscience-magic"><strong>Psychology
+                                            Today</strong></a>. Saber cómo funciona nuestro cerebro y cómo percibimos el mundo que
+                                    nos rodea es algo fundamental en el mundo de la <strong>magia</strong>.
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <h2 class="titulo__especial text-md-center">Efecto de la carta elegida</h2> 
 
             <div class="row g-0 ps-1">
 
-                <div class="container__texto__fondo">
+                <div class="container__texto__fondo d-md-none my-3">
                     <p class="card-text">
                         Nuestra tienda no podía estar completa sin un efecto de <strong>magia</strong> ¿o sí? Para hacer
                         de éste sitio uno más entretenido te presentamos un efecto muy curioso publicado originalmente
                         en inglés en la web <a lang="en" target="_blank" id="link__psychology__today"
                             href="https://www.psychologytoday.com/intl/blog/long-fuse-big-bang/202203/the-neuroscience-magic"><strong>Psychology
                                 Today</strong></a>. Saber cómo funciona nuestro cerebro y cómo percibimos el mundo que
-                        nos rodea es algo fundamental en el mundo de la <strong>magia</strong>. 
-                        Vamos a empezar el efecto con una frase típica del mundo de la <strong>magia</strong>: elegí una
-                        carta.
+                        nos rodea es algo fundamental en el mundo de la <strong>magia</strong>.
                     </p>
                 </div>
                 <div class="col-md-10 m-md-auto col-lg-4 my-3">
@@ -282,7 +305,7 @@
                 que tu cerebro, en su
                 eterna búsqueda de la simplicidad, los pase por alto.
             </p>
-        </article>
+        </section>
     </main>
 
     <script src="../bst/js/bootstrap.bundle.min.js"></script>

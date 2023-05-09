@@ -61,6 +61,12 @@ h1 {
     width: 50%;
 }
 
+/*........................SECCIÓN: EFECTO..........*/
+
+#img__teatro{
+    height: 600px;
+}
+
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
 
 iframe {
@@ -101,4 +107,5 @@ textarea {
     width: 50%;
 
 }
+
 
