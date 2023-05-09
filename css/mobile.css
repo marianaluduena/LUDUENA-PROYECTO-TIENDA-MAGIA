@@ -58,7 +58,10 @@ h2,
 h3 {
     background-color: #306775bd;
     padding: 0.5rem;
-    width: 100%;
+}
+
+.titulo__sin__bg__color{
+    background-color: rgba(255, 255, 255, 0);
 }
 
 /*CLASE HECHA EL 08/05 */
@@ -263,7 +266,7 @@ div>.container-fluid {
 .card {
 
     --bs-card-border-color: none;
-    --bs-card-bg: #2f7587;
+   --bs-card-bg: #2f7587;
 }
 
 .pastilla__producto {
