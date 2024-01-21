@@ -64,32 +64,6 @@
                     <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
                     <a class="nav-link active" href="#categorias">Categorías</a>
                     <a class="nav-link active" href="#productos">Productos</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <!-- HECHO EL 08/05: AGREGAR MENÚ DESPLEGABLE DESDE ACÁ -->
-                        <ul class="dropdown-menu ul-second">
-                            <li><a class="dropdown-item" href="#">Todos</a></li>
-                            <li class="categorias__menu">Categorías </li>
-                            <ul class="ul-third">
-                                <li><a class="dropdown-item" href="#">Cartomagia</a></li>
-                                <li><a class="dropdown-item" href="#">Mentalismo</a></li>
-                                <li><a class="dropdown-item" href="#">Manipulación</a></li>
-                                <li><a class="dropdown-item" href="#">Escapismo</a></li>
-                                <li><a class="dropdown-item" href="#">Magia de Escenario</a></li>
-                            </ul>
-
-                            <li class="categorias__menu">Niveles</li>
-                            <ul class="ul-third">
-                                <li><a class="dropdown-item" href="#">Todos</a></li>
-                                <li><a class="dropdown-item" href="#">Fácil</a></li>
-                                <li><a class="dropdown-item" href="#">Intermedio</a></li>
-                                <li><a class="dropdown-item" href="#">Difícil</a></li>
-                            </ul>
-                        </ul>
-                    </li>
                     <a class="nav-link active" href="#beneficios">¿Por qué aprender magia?</a>
                     <a class="nav-link active" href="./truco/efecto.html">¡Probá éste truco!</a>
                     <a class="nav-link active" href="#contacto">Contacto</a>
@@ -1483,6 +1457,7 @@
 
                 <h2 id="contacto" class="titulo__especial my-4 my-md-5 text-md-center py-3">Contacto</h2>
 
+                <!-- 
                 <form method="post" class="row">
 
                     <div class="col-12 col-md-6 mb-3">
@@ -1531,11 +1506,11 @@
                     </div>
 
                     <label for="comentarios" class="form-label"> </label>
-                    <!-- 
+                    
                     <div class="container__form__textarea">
                         <textarea id="comentarios" name="comentarios"
                             placeholder="Escribí aquí tu consulta o comentario" rows="3"></textarea>
-                    </div>-->
+                    </div> 
 
 
                     <div class="form-floating">
@@ -1545,7 +1520,54 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary form__btn">Enviar</button>
+                </form> -->
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
                 </form>
+
             </div>
         </section>
         <!-- 
@@ -1575,31 +1597,6 @@
 
                     </label>
                     <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
-                </div>
-
-                <div class="col-md-2 col-lg-2 mx-auto mt-3">
-                    <h3 class="md-4 font-weight-bold">Productos</h3>
-                    <hr />
-                    <ul class="list-unstyled">
-                        <a href="#productos">
-                            <li>Todos</li>
-                        </a>
-                        <a href="#productos">
-                            <li>Cartomagia</li>
-                        </a>
-                        <a href="#productos">
-                            <li>Manipulación</li>
-                        </a>
-                        <a href="#productos">
-                            <li>Mentalismo</li>
-                        </a>
-                        <a href="#productos">
-                            <li>Magia de escenario</li>
-                        </a>
-                        <a href="#productos">
-                            <li>Escapismo</li>
-                        </a>
-                    </ul>
                 </div>
 
                 <div class="col-md-2 col-lg-2 mx-auto mt-3">
