@@ -9,7 +9,7 @@ nav {
 }
 
 .navbar>.container-fluid{
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .navbar-collapse{

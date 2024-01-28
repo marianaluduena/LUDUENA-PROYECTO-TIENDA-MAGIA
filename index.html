@@ -40,7 +40,7 @@
 <body>
     <!-- Menú de navegación -->
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-lg">
 
         <!-- Barra de búsqueda sólo para mobile -->
 
@@ -60,32 +60,47 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav d-block d-lg-flex">
                     <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
                     <a class="nav-link active" href="#categorias">Categorías</a>
                     <a class="nav-link active" href="#productos">Productos</a>
                     <a class="nav-link active" href="#beneficios">¿Por qué aprender magia?</a>
                     <a class="nav-link active" href="./truco/efecto.html">¡Probá éste truco!</a>
                     <a class="nav-link active" href="#contacto">Contacto</a>
+
+
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary btn__small m-2">🔮 Ingresar</a>
+
+                    <a class="btn btn-primary btn__small m-2"> 🪄 Registrarse</a>
+
+                    <a class="btn btn-primary btn__small m-2"> 🛒 Carrito</a>
                 </div>
 
                 <!-- Barra de búsqueda sólo para lg -->
                 <form class="d-none d-lg-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Qué estás buscando?"
+                    <input class="form-control me-2" type="search" placeholder="Qué estás buscando?🔍"
                         aria-label="Search">
-                    <button class="btn btn-primary btn__small" type="submit">Buscar</button>
+                    <!--  <button class="btn btn-primary btn__small" type="submit">Buscar</button> -->
                 </form>
-
             </div>
+
         </div>
 
-        <!-- Barra de búsqueda sólo para md -->
+
+
+        <!-- Barra de búsqueda sólo para md 
         <div class="d-none d-md-flex d-lg-none m-auto my-2">
             <form class="d-none d-md-flex d-lg-none m-auto my-2" role="search">
                 <input class="form-control me-2" type="search" placeholder="Qué estás buscando?" aria-label="Search">
                 <button class="btn btn-primary btn__small" type="submit">Buscar</button>
             </form>
-        </div>
+        </div>-->
+
+
+
     </nav>
 
     <main class="container">
@@ -1599,7 +1614,7 @@
                     <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
                 </div>
 
-                <div class="col-md-2 col-lg-2 mx-auto mt-3">
+                <div class="col-md-3 col-lg-3 mx-auto mt-3">
                     <h3 class="md-4 font-weight-bold">Nosotros</h3>
                     <hr />
                     <ul class="list-unstyled">

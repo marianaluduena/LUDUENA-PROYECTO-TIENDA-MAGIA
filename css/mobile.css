@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid purple;*/
+    outline: 1px solid purple;
 }
 
 /*.........ESTILOS GENERALES.......*/
@@ -501,9 +501,15 @@ form>select {
 
 
 .btn__small {
-    background-color: rgb(247, 175, 21);
+    background-color: #16161687;
+    color:whitesmoke;
+    padding: 0.5rem;
 }
 
+.btn__small:hover{
+    background-color: rgb(244, 183, 52);
+    
+}
 /*............FOOTER: ACERCA DE MI................*/
 
 

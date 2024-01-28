@@ -21,7 +21,7 @@ h3 {
     margin: 0 auto;
 }
 
-.titulo__especial{
+.titulo__especial {
     width: 90%;
 }
 
@@ -62,7 +62,7 @@ nav .navbar-nav {
 /*.........SECCIÓN: HOME.......*/
 
 
-.cartel__iconos__envios__pagos__whsp{
+.cartel__iconos__envios__pagos__whsp {
     justify-content: space-around;
 }
 
@@ -123,7 +123,7 @@ iframe {
 
 /*........................SECCIÓN: EFECTO..........*/
 
-#img__teatro{
+#img__teatro {
     height: 400px;
 }
 
@@ -139,9 +139,9 @@ label {
 }
 
 .form-control {
-    padding: 1rem;
-    width: 80%;
-} 
+    padding: 0.5rem;
+    width: 100%;
+}
 
 input .form-control {
     width: 300px;
@@ -168,13 +168,14 @@ input .form-control {
     margin: 1.5rem auto;
     padding: 0.5rem;
 }
+
 /*........................FOOTER:EMPRESA..........*/
 
-#input__newsletter__sm__y__md{
+#input__newsletter__sm__y__md {
     width: 100%;
 }
 
-#btn__newsletter{
+#btn__newsletter {
 
     width: 100%;
 }
