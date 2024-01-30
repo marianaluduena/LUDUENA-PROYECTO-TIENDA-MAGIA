@@ -7,6 +7,10 @@
 
 /*.........ESTILOS GENERALES.......*/
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("../img/fondos/blue__smoke.jpg");
     background-color: #2f7587;
@@ -60,7 +64,7 @@ h3 {
     padding: 0.5rem;
 }
 
-.titulo__sin__bg__color{
+.titulo__sin__bg__color {
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -102,6 +106,33 @@ img {
     border-radius: 5px;
 }
 
+.flecha__subir {
+
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 175, 21);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.2s ease-out;
+}
+
+#top_scroll {
+    margin: 0;
+    /*background-color: #0a4665;*/
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    transition: 0.2s ease-out;
+}
+
+.flecha__subir:hover #top_scroll{
+
+    transform: translateY(-4px);
+}
 
 /*.........MENÚ DE NAVEGACIÓN.......*/
 
@@ -266,7 +297,7 @@ div>.container-fluid {
 .card {
 
     --bs-card-border-color: none;
-   --bs-card-bg: #2f7587;
+    --bs-card-bg: #2f7587;
 }
 
 .pastilla__producto {
@@ -502,14 +533,15 @@ form>select {
 
 .btn__small {
     background-color: #16161687;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 0.5rem;
 }
 
-.btn__small:hover{
+.btn__small:hover {
     background-color: rgb(244, 183, 52);
-    
+
 }
+
 /*............FOOTER: ACERCA DE MI................*/
 
 
