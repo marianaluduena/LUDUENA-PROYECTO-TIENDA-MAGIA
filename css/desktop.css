@@ -8,11 +8,11 @@ nav {
 
 }
 
-.navbar>.container-fluid{
+.navbar>.container-fluid {
     justify-content: space-between;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     flex-grow: 0;
 }
 
@@ -21,7 +21,7 @@ h1 {
     font-size: 4.5rem;
 }
 
-.titulo__especial{
+.titulo__especial {
     width: 80%;
 }
 
@@ -33,23 +33,25 @@ h1 {
     margin: auto;
 }
 
-.carousel-item{
+.carousel-item {
 
     background-color: rgb(247, 175, 21);
 }
+
 .img__container__carousel {
     max-width: 890px;
 }
 
-.img__carrousel{
+.img__carrousel {
     height: 510px;
 }
 
-.parrafo__carrousel{
+.parrafo__carrousel {
     color: whitesmoke;
     font-family: "Playfair", "Lora", Arial, Helvetica, sans-serif;
     font-size: 3rem;
 }
+
 /*...............SECCIÓN: NOSOTROS............*/
 
 #cofre__magico {
@@ -62,14 +64,21 @@ h1 {
 }
 
 
-.mision__card{
+.mision__card {
 
     max-width: 650px;
 }
 
+/*........................SECCIÓN: BENEFICIOS..........*/
+
+.div_card_beneficios {
+    max-width: 630px;
+    margin: 1rem auto;
+}
+
 /*........................SECCIÓN: EFECTO..........*/
 
-#img__teatro{
+#img__teatro {
     height: 600px;
 }
 
@@ -91,7 +100,7 @@ input {
     justify-content: center;
 }
 
-.container__form__textarea{
+.container__form__textarea {
 
     width: 90%;
 }
@@ -108,10 +117,8 @@ textarea {
 
 /*........................FOOTER:EMPRESA..........*/
 
-#btn__newsletter{
+#btn__newsletter {
 
     width: 50%;
 
 }
-
-

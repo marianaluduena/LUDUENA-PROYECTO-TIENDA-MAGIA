@@ -403,6 +403,10 @@ del {
 
 /*............SECCIÓN: BENEFICIOS................*/
 
+.div_card_beneficios{
+    max-width: 100%;
+}
+
 .card .titulo__beneficios {
     background-color: #16161687;
     margin-top: 1.5rem;
